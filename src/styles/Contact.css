@@ -1,0 +1,66 @@
+/* Contact.css */
+
+.contact {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-control {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control input[type="text"],
+  .form-control input[type="email"],
+  .form-control input[type="text"],
+  .form-control textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-control input[type="text"]:focus,
+  .form-control input[type="email"]:focus,
+  .form-control textarea:focus {
+    outline: none;
+    border-color: #5a5a5a;
+  }
+  
+  .form-control textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  
+  .form-control .--btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-control .--btn:hover {
+    background-color: #0056b3;
+  }
+  
